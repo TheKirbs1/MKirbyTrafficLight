@@ -1,5 +1,6 @@
 import React,  { useState }  from "react";
 import '../../styles/trafficLight.css'
+import PurpleLight from "./PurpleLight";
 
 
 const TrafficLight = () => {
@@ -23,6 +24,15 @@ const TrafficLight = () => {
                     }
                     onClick={() => setChosenColor("green")}
                 ></div>
+                <div className="HiddenBlock">
+                    <div className={
+                    chosenColor === "purple" ? "purple selected" : "purple"
+                    }
+                    onClick={() => setChosenColor("purple")}
+                    >
+
+                </div>
+                </div>
     </div>
     </>
     )

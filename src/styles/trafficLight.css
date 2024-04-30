@@ -36,6 +36,21 @@
     border-radius: 100%;
 }
 
+                                .purple {
+                                    background-color: purple;
+                                    width: 80px;
+                                    height: 80px;
+                                    border-radius: 100%;
+                                }
+                                .HiddenBlock {
+                                    background-color: black;
+                                    width: 100px;
+                                    height: 110px;
+                                    margin-top: 0px;
+                                    margin-left: -10px;
+                                    border-radius: 0 0 50% 50%;
+                                    padding: 10px 10px;
+                                }
 .selected{
     box-shadow: 
     0 0 50px 20px #fff,
