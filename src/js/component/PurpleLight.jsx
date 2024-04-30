@@ -10,11 +10,14 @@ function PurpleLight() {
   return (
     <div>
       <button onClick={toggleVisibility}>
-        {isVisible ? "Hide" : "Show"} Div
+        {isVisible ? "Hide" : "Show"} Purple Button
       </button>
-      {isVisible && <div>This is the hidden div.</div>}
+      {isVisible && <div>Purple Light</div>}
     </div>
   );
 }
+
+//This is a function and is currently unused
+
 
 export default PurpleLight;
