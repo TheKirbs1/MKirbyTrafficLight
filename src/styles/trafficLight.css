@@ -36,6 +36,34 @@
     border-radius: 100%;
 }
 
+.purple {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.HiddenBlock {
+    background-color: black;
+    width: 100px;
+    height: 110px;
+    
+    border-radius: 0 0 15px 15px;
+    padding: 10px 10px;
+}
+
+.PurpleLight {
+    margin: -12px 715px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}
+
 .selected{
     box-shadow: 
     0 0 50px 20px #fff,
