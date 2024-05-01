@@ -42,6 +42,7 @@
     height: 80px;
     border-radius: 100%;
 }
+
 .HiddenBlock {
     background-color: black;
     width: 100px;
@@ -68,5 +69,23 @@ button {
     box-shadow: 
     0 0 50px 20px #fff,
     0 0 100px 60px rgb(243, 227, 82),
+    0 0 140px 90px rgb(231, 241, 241);
+}
+.selectedR{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(245, 1, 1),
+    0 0 140px 90px rgb(231, 241, 241);
+}
+.selectedG{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(28, 216, 3),
+    0 0 140px 90px rgb(231, 241, 241);
+}
+.selectedP{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(167, 3, 189),
     0 0 140px 90px rgb(231, 241, 241);
 }
