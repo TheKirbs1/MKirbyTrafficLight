@@ -4,7 +4,7 @@ import PurpleLight from "./PurpleLight";
 
 
 const TrafficLight = () => {
-    const [chosenColor, setChosenColor] = useState("selected")
+    const [chosenColor, setChosenColor] = useState("selected, selectedR, selectedG, selectedP")
     const [isVisible, setIsVisible] = useState(true);
 
     const toggleVisibility = () => {
@@ -16,7 +16,7 @@ const TrafficLight = () => {
     <div className="stem"></div>
     <div className="traffic-light-body">
             <div className={
-                    chosenColor === "red" ? "red selected" : "red"
+                    chosenColor === "red" ? "red selectedR" : "red"
                     }
                     onClick={() => setChosenColor("red")}
             ></div>
@@ -26,7 +26,7 @@ const TrafficLight = () => {
                     onClick={() => setChosenColor("yellow")}
             ></div>
             <div className={
-                    chosenColor === "green" ? "green selected" : "green"
+                    chosenColor === "green" ? "green selectedG" : "green"
                     }
                     onClick={() => setChosenColor("green")}
             ></div>
@@ -34,7 +34,7 @@ const TrafficLight = () => {
     <div className="PurpleLight">
     {isVisible && (<div className="HiddenBlock">
             <div className={
-                    chosenColor === "purple" ? "purple selected" : "purple"
+                    chosenColor === "purple" ? "purple selectedP" : "purple"
                     }
                     onClick={() => setChosenColor("purple")}
                     >
