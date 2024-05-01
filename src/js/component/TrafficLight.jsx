@@ -1,6 +1,5 @@
 import React,  { useState }  from "react";
 import '../../styles/trafficLight.css'
-import PurpleLight from "./PurpleLight";
 
 
 const TrafficLight = () => {
